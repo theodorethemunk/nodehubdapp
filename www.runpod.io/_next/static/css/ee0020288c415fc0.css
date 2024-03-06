@@ -1,0 +1,73 @@
+.lazy-log-highlightLine {
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    user-select: auto !important
+}
+
+#live-chat-widget {
+    color-scheme: none !important
+}
+
+@keyframes slideLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-30px)
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px)
+    }
+    to {
+        opacity: 1;
+        transform: inherit
+    }
+}
+
+@keyframes floating {
+    0% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+    50% {
+        transform: translateY(-10px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.animator-hidden {
+    display: none
+}
+
+.MuiDivider-wrapper {
+    padding: 0 !important
+}
+
+#termly-code-snippet-support>div {
+    animation: none !important
+}
+
+.Layout_root__L2Vtu {
+    overflow: auto;
+    flex: 1 1;
+    overflow-x: hidden;
+    min-height: "calc(100% - 200px);"
+}

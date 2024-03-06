@@ -1,0 +1,2 @@
+self.__SSG_MANIFEST = new Set(["\u002F", "\u002Fendpoints", "\u002Fgpu-cloud", "\u002Fgpu-instance\u002Fpricing", "\u002Freplicate-api", "\u002Freplicate-demo", "\u002Fserverless-gpu"]);
+self.__SSG_MANIFEST_CB && self.__SSG_MANIFEST_CB()
